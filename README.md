@@ -1,10 +1,25 @@
 # PyTemp-1
-Downloads separate (specified) file to a randomly generated folder in /TEMP then executes it.
+A Python3 file downloader.
 
-# In this project.
+<p align="center">
+  <img src="https://img.shields.io:/github/license/NightTabGit/PyTemp-1" alt="Code size"/>
+</p> <br/> 
+  
+```
+What you do with this code / project / idea is non of my buisness or concern, and this was made for **educational** purposes only (testing software), and anything done with this code is NOT endorsed by me.
 
-Contained in **Loader.py**, is a script which downloads a custom file from (https://gitcdn.link/cdn/NightTabGit/PyTemp-1/main/Payload.py), and into a randomly generated folder in /TEMP. It then executes it. <br>
+By using / utilizing PyTemp-1 you agree that you hold responsibility and accountability of any consequences caused by your actions.
+```
+# Explanation
 
-This can be used to download files with a much larger file size then the original, and executed. <br>
+The "loader.py" will create a file in /Temp (Something like this, "oaisduaiosdjw") and download the pre inserted download link into that file, execute it, and vwala, you got your beefy file running, but only from a much smaller file! <br>
 
-The link can be customized, to anything, even an exe, or whatever file you want.
+A probably better alternative, to this beefy ass python version, is something akin to: 
+- [x] https://github.com/UnamSanctam/UnamDownloader
+- [x] https://github.com/UnamSanctam/UnamBinder
+
+Since they both create **MUCH** smaller files then this one on compile. <br>
+
+# To build
+``pyinstaller --onefile -n PyTemp-1`` | https://pyinstaller.readthedocs.io/en/stable/requirements.html <br>
+Auto-py-to-exe | https://pypi.org/project/auto-py-to-exe/
