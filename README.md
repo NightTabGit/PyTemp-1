@@ -2,7 +2,7 @@
 A Python3 file downloader.
 
 <p align="center">
-  <img src="https://img.shields.io:/github/license/NightTabGit/PyTemp-1" alt="Code size"/>
+  <img src="https://img.shields.io:/github/license/NightTabGit/PyTemp-1" alt="Code"/>
 </p> <br/> 
   
 ```
